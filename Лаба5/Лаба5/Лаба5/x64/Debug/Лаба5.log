@@ -1,0 +1,7 @@
+﻿  Решение1-3.c
+C:\Users\ПК\source\repos\Лаба5\Лаба5\Решение1-3.c(19,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\ПК\source\repos\Лаба5\Лаба5\Решение1-3.c(33,6): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\ПК\source\repos\Лаба5\Лаба5\Решение1-3.c(35,6): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\ПК\source\repos\Лаба5\Лаба5\Решение1-3.c(42,2): warning C4098: main: функция типа "void", возвращающая значение
+C:\Users\ПК\source\repos\Лаба5\Лаба5\Решение1-3.c(25,13): warning C4305: инициализация: усечение из "double" в "float"
+  Лаба5.vcxproj -> C:\Users\ПК\source\repos\Лаба5\Лаба5\x64\Debug\Лаба5.exe
