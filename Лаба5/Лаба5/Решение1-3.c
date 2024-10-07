@@ -35,6 +35,7 @@ void main()
 //2
 
 	printf("\nПрограмма задания номер 2\n");
+
 	double  k = 1.2;
 	double  x;
 	double  a;
@@ -48,12 +49,26 @@ void main()
 	b = pow(log(x), 2) + pow(k, 5);
 	y = pow(sqrt(pow(a, 2) + pow(b, 2)),1./3);
 
-	printf(" %.2lf",y);
+	printf(" %.2lf %.2lf %.2lf\n",y,a,b);
 //3
+	printf("Программа проверки условий");
+
+	int A = a;
+	int B = b;
+	int C = y;
+
+	if (A % 3 == 0 && B % 3 == 0 && C % 3 == 0)
+	{
+		if (A % 2 == 0 || B % 2 == 0)
+		{
+			printf("\n1");
+		}
+	}
+	else
+	{
+		printf("\n0");
+	}
 	
-
-
-
 //Дз
 
 	printf("\nПрограмма расчета уравнения.\n");
@@ -73,6 +88,5 @@ void main()
 
 	printf("Рузельтат выражения: \n %lf , x %lf y %e", resultxy,x1,y1);
 
-	return 0;
 }
 
